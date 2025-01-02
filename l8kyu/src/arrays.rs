@@ -6,7 +6,9 @@ use shared::kata::*;
 
 /// Complete the square sum function so that it squares each number passed into it
 /// and then sums the results together.
-/// E.g. [1, 2, 2] it should return 9 because 1^2+2^2+2^2=9.
+/// # Example
+/// ``` square_sum(vec![5, 3, 4]); ``` <br>
+/// returns 50
 pub fn square_sum(vec: Vec<i32>) -> i32 {
     let kata = Kata {
         level: Level::L8kyu,
