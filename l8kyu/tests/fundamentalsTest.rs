@@ -1,5 +1,5 @@
 #[cfg(test)]
-use l8kyu::fundamentals::is_love;
+use l8kyu::fundamentals::*;
 
 mod tests {
     use super::*;

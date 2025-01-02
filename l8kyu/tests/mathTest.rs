@@ -1,5 +1,5 @@
 #[cfg(test)]
-use l8kyu::math::summation;
+use l8kyu::math::*;
 
 mod tests {
     use super::*;
