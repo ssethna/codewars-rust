@@ -1,10 +1,8 @@
 //!
-//! Modules categorized by Codewars labels *** Arrays ***
+//! Modules categorized by Codewars labels - 8kyu *** Arrays ***
 //!
 
-use crate::kata::Kata;
-use crate::kata::Level;
-use crate::kata::Tag;
+use shared::kata::*;
 
 /// Complete the square sum function so that it squares each number passed into it
 /// and then sums the results together.

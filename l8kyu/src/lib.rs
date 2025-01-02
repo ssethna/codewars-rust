@@ -4,5 +4,4 @@
 
 pub mod arrays;
 pub mod fundamentals;
-pub mod kata;
 pub mod math;

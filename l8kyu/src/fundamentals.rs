@@ -1,10 +1,8 @@
 //!
-//! Modules categorized by Codewars labels *** Fundamentals ***
+//! Modules categorized by Codewars labels - 8kyu *** Fundamentals ***
 //!
 
-use crate::kata::Kata;
-use crate::kata::Level;
-use crate::kata::Tag;
+use shared::kata::*;
 
 /// Timmy & Sarah think they are in love, but around where they live, they will only
 /// know once they pick a flower each. If one of the flowers has an even number of

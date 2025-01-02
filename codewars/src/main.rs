@@ -1,4 +1,5 @@
 //use dialoguer::{theme::ColorfulTheme, Select};
+use l6kyu::arrays::*;
 use l8kyu::arrays::*;
 use l8kyu::fundamentals::*;
 use l8kyu::math::*;
@@ -16,4 +17,8 @@ fn main() {
     println!("isLove {}", is_love(5, 7));
     println!("the summation is {}", summation(8));
     println!("square_sum is {}", square_sum(vec![5, 3, 4]));
+    println!(
+        "square_sum is {}",
+        create_phone_number(&[1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
+    );
 }

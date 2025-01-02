@@ -5,4 +5,5 @@ edition = "2021"
 
 [dependencies]
 l8kyu = { path = "../l8kyu" }
+l6kyu = { path = "../l6kyu" }
 #dialoguer = "0.9"

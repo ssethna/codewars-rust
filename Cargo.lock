@@ -6,9 +6,24 @@ version = 4
 name = "codewars"
 version = "0.1.0"
 dependencies = [
+ "l6kyu",
  "l8kyu",
 ]
 
 [[package]]
+name = "l6kyu"
+version = "0.1.0"
+dependencies = [
+ "shared",
+]
+
+[[package]]
 name = "l8kyu"
+version = "0.1.0"
+dependencies = [
+ "shared",
+]
+
+[[package]]
+name = "shared"
 version = "0.1.0"

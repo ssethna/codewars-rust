@@ -1,10 +1,8 @@
 //!
-//! Modules categorized by Codewars labels *** Mathematics ***
+//! Modules categorized by Codewars labels - 8kyu *** Mathematics ***
 //!
 
-use crate::kata::Kata;
-use crate::kata::Level;
-use crate::kata::Tag;
+use shared::kata::*;
 
 /// Write a program that finds the summation of every number from 1 to num.
 /// The number will always be a positive integer greater than 0.
