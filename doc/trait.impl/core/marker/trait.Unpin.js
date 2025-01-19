@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["l8kyu",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.83.0/core/marker/trait.Unpin.html\" title=\"trait core::marker::Unpin\">Unpin</a> for <a class=\"enum\" href=\"l8kyu/kata/enum.Level.html\" title=\"enum l8kyu::kata::Level\">Level</a>",1,["l8kyu::kata::Level"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.83.0/core/marker/trait.Unpin.html\" title=\"trait core::marker::Unpin\">Unpin</a> for <a class=\"enum\" href=\"l8kyu/kata/enum.Tag.html\" title=\"enum l8kyu::kata::Tag\">Tag</a>",1,["l8kyu::kata::Tag"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.83.0/core/marker/trait.Unpin.html\" title=\"trait core::marker::Unpin\">Unpin</a> for <a class=\"struct\" href=\"l8kyu/kata/struct.Kata.html\" title=\"struct l8kyu::kata::Kata\">Kata</a>",1,["l8kyu::kata::Kata"]]]],["shared",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.83.0/core/marker/trait.Unpin.html\" title=\"trait core::marker::Unpin\">Unpin</a> for <a class=\"enum\" href=\"shared/kata/enum.Level.html\" title=\"enum shared::kata::Level\">Level</a>",1,["shared::kata::Level"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.83.0/core/marker/trait.Unpin.html\" title=\"trait core::marker::Unpin\">Unpin</a> for <a class=\"enum\" href=\"shared/kata/enum.Tag.html\" title=\"enum shared::kata::Tag\">Tag</a>",1,["shared::kata::Tag"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.83.0/core/marker/trait.Unpin.html\" title=\"trait core::marker::Unpin\">Unpin</a> for <a class=\"struct\" href=\"shared/kata/struct.Kata.html\" title=\"struct shared::kata::Kata\">Kata</a>",1,["shared::kata::Kata"]]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[821,832]}
