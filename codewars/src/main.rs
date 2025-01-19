@@ -3,6 +3,7 @@ use l6kyu::arrays::*;
 use l8kyu::arrays::*;
 use l8kyu::fundamentals::*;
 use l8kyu::math::*;
+use l8kyu::strings::*;
 
 fn main() {
     // let options = vec!["Option 1", "Option 2", "Option 3", "Option 4"];
@@ -21,4 +22,5 @@ fn main() {
         "square_sum is {}",
         create_phone_number(&[1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
     );
+    println!("boolean_to_string is {}", boolean_to_string(false));
 }

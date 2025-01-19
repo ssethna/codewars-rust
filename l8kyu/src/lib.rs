@@ -5,3 +5,4 @@
 pub mod arrays;
 pub mod fundamentals;
 pub mod math;
+pub mod strings;
