@@ -13,7 +13,7 @@ pub fn create_phone_number(numbers: &[u8]) -> String {
     let kata = Kata {
         level: Level::L6kyu,
         tags: vec![Tag::Arrays, Tag::Strings, Tag::Regex, Tag::Algorithms],
-        description: String::from("Create_phone_number"),
+        description: String::from("Create Phone Number"),
     };
 
     println!(

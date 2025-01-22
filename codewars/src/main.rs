@@ -1,5 +1,6 @@
 //use dialoguer::{theme::ColorfulTheme, Select};
 use l6kyu::arrays::*;
+use l7kyu::strings::*;
 use l8kyu::arrays::*;
 use l8kyu::fundamentals::*;
 use l8kyu::math::*;
@@ -23,4 +24,5 @@ fn main() {
         create_phone_number(&[1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
     );
     println!("boolean_to_string is {}", boolean_to_string(false));
+    println!("solution is {}", solution("abc", "bc"));
 }

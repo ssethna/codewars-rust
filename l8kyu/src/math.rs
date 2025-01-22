@@ -14,7 +14,7 @@ pub fn summation(n: i32) -> i32 {
     let kata = Kata {
         level: Level::L8kyu,
         tags: vec![Tag::Fundamentals, Tag::Mathematics],
-        description: String::from("Summation"),
+        description: String::from("Grasshopper - Summation"),
     };
 
     println!(
