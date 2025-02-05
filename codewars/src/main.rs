@@ -25,4 +25,5 @@ fn main() {
     );
     println!("boolean_to_string is {}", boolean_to_string(false));
     println!("solution is {}", solution("abc", "bc"));
+    println!("{}", multi_table(5));
 }
