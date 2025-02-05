@@ -11,6 +11,17 @@ use shared::kata::*;
 /// returns "1 * 5 = 5\n2 * 5 = 10\n3 * 5 = 15\n4 * 5 = 20\n5 * 5 = 25\n
 /// 6 * 5 = 30\n7 * 5 = 35\n8 * 5 = 40\n9 * 5 = 45\n10 * 5 = 50"
 pub fn multi_table(n: u64) -> String {
+    let kata = Kata {
+        level: Level::L8kyu,
+        tags: vec![Tag::Fundamentals, Tag::Strings],
+        description: String::from("Multiplication table for number"),
+    };
+
+    println!(
+        "Level: {:?}, Tags: {:?}, Description: {}",
+        kata.level, kata.tags, kata.description
+    );
+
     let mut mult_t = String::from("");
     for i in 1..10 {
         let line = format!("{} * {} = {}\n", i, n, i * n);
