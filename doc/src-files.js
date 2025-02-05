@@ -1,3 +1,3 @@
-var srcIndex = new Map(JSON.parse('[["codewars",["",[],["main.rs"]]],["l6kyu",["",[],["arrays.rs","lib.rs"]]],["l8kyu",["",[],["arrays.rs","fundamentals.rs","kata.rs","lib.rs","math.rs"]]],["l8kyu",["",[],["arrays.rs","fundamentals.rs","lib.rs","math.rs","strings.rs"]]],["l8kyu",["",[],["arrays.rs","fundamentals.rs","lib.rs","math.rs"]]],["l8kyu",["",[],["fundamentals.rs","lib.rs","math.rs"]]],["shared",["",[],["kata.rs","lib.rs"]]]]'));
+var srcIndex = new Map(JSON.parse('[["codewars",["",[],["main.rs"]]],["l6kyu",["",[],["arrays.rs","lib.rs"]]],["l7kyu",["",[],["fundamentals.rs","lib.rs","strings.rs"]]],["l7kyu",["",[],["lib.rs","strings.rs"]]],["l8kyu",["",[],["arrays.rs","fundamentals.rs","kata.rs","lib.rs","math.rs"]]],["l8kyu",["",[],["arrays.rs","fundamentals.rs","lib.rs","math.rs","strings.rs"]]],["l8kyu",["",[],["arrays.rs","fundamentals.rs","lib.rs","math.rs"]]],["l8kyu",["",[],["fundamentals.rs","lib.rs","math.rs"]]],["shared",["",[],["kata.rs","lib.rs"]]]]'));
 createSrcSidebar();
-//{"start":36,"fragment_lengths":[32,41,79,82,69,57,40]}
+//{"start":36,"fragment_lengths":[32,41,60,42,79,82,69,57,40]}
