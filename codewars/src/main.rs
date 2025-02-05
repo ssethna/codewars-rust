@@ -1,5 +1,6 @@
 //use dialoguer::{theme::ColorfulTheme, Select};
 use l6kyu::arrays::*;
+use l7kyu::fundamentals::*;
 use l7kyu::strings::*;
 use l8kyu::arrays::*;
 use l8kyu::fundamentals::*;
@@ -26,4 +27,6 @@ fn main() {
     println!("boolean_to_string is {}", boolean_to_string(false));
     println!("solution is {}", solution("abc", "bc"));
     println!("{}", multi_table(5));
+    println!("Encipher 'ABCD' is '{}'", encipher("ABCD"));
+    print!("Decipher 'GBCE' is '{}'", decipher("GBCE"));
 }
