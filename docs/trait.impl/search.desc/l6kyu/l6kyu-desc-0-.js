@@ -1,0 +1,1 @@
+searchState.loadedDescShard("l6kyu", 0, "Codewars Katas - Level 6kyu.\nModules categorized by Codewars labels - 6kyu *** Arrays …\nWrite a function that accepts an array of 10 integers …")

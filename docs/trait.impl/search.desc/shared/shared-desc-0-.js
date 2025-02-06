@@ -1,0 +1,1 @@
+searchState.loadedDescShard("shared", 0, "Codewars Shared Library.\nKata Struct, Level enum &amp; Tag enum Used for categorizing …\nReturns the argument unchanged.\nReturns the argument unchanged.\nReturns the argument unchanged.\nCalls <code>U::from(self)</code>.\nCalls <code>U::from(self)</code>.\nCalls <code>U::from(self)</code>.")
