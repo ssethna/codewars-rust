@@ -28,5 +28,9 @@ fn main() {
     println!("solution is {}", solution("abc", "bc"));
     println!("{}", multi_table(5));
     println!("Encipher 'ABCD' is '{}'", encipher("ABCD"));
-    print!("Decipher 'GBCE' is '{}'", decipher("GBCE"));
+    println!("Decipher 'GBCE' is '{}'", decipher("GBCE"));
+    println!(
+        "Encipher_digital is '{:?}'",
+        digital_encipher("Scout".to_string(), 1939)
+    );
 }

@@ -17,4 +17,16 @@ mod tests {
         assert_eq!(decipher("Gug hgs g cgt"), "Ala has a cat");
         assert_eq!(decipher("agedyropulik"), "gaderypoluki");
     }
+
+    #[test]
+    fn encipher_digital_test() {
+        assert_eq!(
+            digital_encipher("scout".to_string(), 1939),
+            vec![20, 12, 18, 30, 21]
+        );
+        assert_eq!(
+            digital_encipher("masterpiece".to_string(), 1939),
+            vec![14, 10, 22, 29, 6, 27, 19, 18, 6, 12, 8]
+        );
+    }
 }

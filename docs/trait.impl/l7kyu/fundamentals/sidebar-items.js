@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["decipher","encipher"]};
+window.SIDEBAR_ITEMS = {"fn":["decipher","digital_encipher","encipher"]};

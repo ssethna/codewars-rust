@@ -30,7 +30,11 @@
 <a href="#29" id="29">29</a>
 <a href="#30" id="30">30</a>
 <a href="#31" id="31">31</a>
-<a href="#32" id="32">32</a></pre></div><pre class="rust"><code><span class="comment">//use dialoguer::{theme::ColorfulTheme, Select};
+<a href="#32" id="32">32</a>
+<a href="#33" id="33">33</a>
+<a href="#34" id="34">34</a>
+<a href="#35" id="35">35</a>
+<a href="#36" id="36">36</a></pre></div><pre class="rust"><code><span class="comment">//use dialoguer::{theme::ColorfulTheme, Select};
 </span><span class="kw">use </span>l6kyu::arrays::<span class="kw-2">*</span>;
 <span class="kw">use </span>l7kyu::fundamentals::<span class="kw-2">*</span>;
 <span class="kw">use </span>l7kyu::strings::<span class="kw-2">*</span>;
@@ -60,6 +64,10 @@
     <span class="macro">println!</span>(<span class="string">"solution is {}"</span>, solution(<span class="string">"abc"</span>, <span class="string">"bc"</span>));
     <span class="macro">println!</span>(<span class="string">"{}"</span>, multi_table(<span class="number">5</span>));
     <span class="macro">println!</span>(<span class="string">"Encipher 'ABCD' is '{}'"</span>, encipher(<span class="string">"ABCD"</span>));
-    <span class="macro">print!</span>(<span class="string">"Decipher 'GBCE' is '{}'"</span>, decipher(<span class="string">"GBCE"</span>));
+    <span class="macro">println!</span>(<span class="string">"Decipher 'GBCE' is '{}'"</span>, decipher(<span class="string">"GBCE"</span>));
+    <span class="macro">println!</span>(
+        <span class="string">"Encipher_digital is '{:?}'"</span>,
+        digital_encipher(<span class="string">"Scout"</span>.to_string(), <span class="number">1939</span>)
+    );
 }
 </code></pre></div></section></main></body></html>
