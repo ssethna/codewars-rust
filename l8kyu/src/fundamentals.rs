@@ -4,6 +4,27 @@
 
 use shared::kata::*;
 
+/// This function takes two numbers as parameters, the first number
+/// being the coefficient, and the second number being the exponent.
+/// The exponent will never be 1, and neither number will ever be 0.
+/// # Example
+/// ``` derive(7, 8) ``` <br>
+/// returns "56x^7"
+pub fn derive(coefficient: u32, exponent: u32) -> String {
+    let kata = Kata {
+        level: Level::L8kyu,
+        tags: vec![Tag::Fundamentals],
+        description: String::from("Take the Derivative"),
+    };
+
+    println!(
+        "Level: {:?}, Tags: {:?}, Description: {}",
+        kata.level, kata.tags, kata.description
+    );
+
+    format!("{}x^{}", coefficient * exponent, exponent - 1)
+}
+
 /// Your goal is to return multiplication table for number that is always
 /// an integer from 1 to 10.
 /// # Example

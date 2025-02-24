@@ -34,5 +34,9 @@ fn main() {
         "Encipher_digital is '{:?}'",
         digital_encipher("Scout".to_string(), 1939)
     );
-    println!("crack is {:?}", crack("86aa400b65433b608a9db30070ec60cd".to_string()));
+    println!(
+        "crack is {:?}",
+        crack("86aa400b65433b608a9db30070ec60cd".to_string())
+    );
+    println!("Derive is {}", derive(7, 8));
 }
