@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["arrays"]};
+window.SIDEBAR_ITEMS = {"mod":["algorithms","arrays"]};

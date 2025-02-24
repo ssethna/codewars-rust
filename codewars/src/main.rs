@@ -1,4 +1,5 @@
 //use dialoguer::{theme::ColorfulTheme, Select};
+use l6kyu::algorithms::*;
 use l6kyu::arrays::*;
 use l7kyu::fundamentals::*;
 use l7kyu::strings::*;
@@ -21,7 +22,7 @@ fn main() {
     println!("the summation is {}", summation(8));
     println!("square_sum is {}", square_sum(vec![5, 3, 4]));
     println!(
-        "square_sum is {}",
+        "create_phone_number is {}",
         create_phone_number(&[1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
     );
     println!("boolean_to_string is {}", boolean_to_string(false));
@@ -33,4 +34,5 @@ fn main() {
         "Encipher_digital is '{:?}'",
         digital_encipher("Scout".to_string(), 1939)
     );
+    println!("crack is {:?}", crack("86aa400b65433b608a9db30070ec60cd".to_string()));
 }
