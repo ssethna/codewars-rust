@@ -1,4 +1,4 @@
 [workspace]
 
 resolver = "2"
-members = ["codewars", "l8kyu", "l7kyu", "l6kyu", "shared",]
+members = ["codewars", "l8kyu", "l7kyu", "l6kyu", "l5kyu", "shared",]

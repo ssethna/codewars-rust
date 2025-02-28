@@ -1,4 +1,5 @@
 //use dialoguer::{theme::ColorfulTheme, Select};
+use l5kyu::fundamentals::*;
 use l6kyu::algorithms::*;
 use l6kyu::arrays::*;
 use l7kyu::fundamentals::*;
@@ -39,4 +40,6 @@ fn main() {
         crack("86aa400b65433b608a9db30070ec60cd".to_string())
     );
     println!("Derive is {}", derive(7, 8));
+    println!("{}", code("Alan Turing"));
+    println!("Decode is {}", decode("\x0bi A\n\x0bnTl\n\x0bgua\n\x0b\x0brn"));
 }

@@ -21,6 +21,7 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 name = "codewars"
 version = "0.1.0"
 dependencies = [
+ "l5kyu",
  "l6kyu",
  "l7kyu",
  "l8kyu",
@@ -75,6 +76,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2b192c782037fadd9cfa75548310488aabdbf3d2da73885b31bd0abd03351285"
 dependencies = [
  "either",
+]
+
+[[package]]
+name = "l5kyu"
+version = "0.1.0"
+dependencies = [
+ "shared",
 ]
 
 [[package]]

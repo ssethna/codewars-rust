@@ -7,4 +7,5 @@ edition = "2021"
 l8kyu = { path = "../l8kyu" }
 l7kyu = { path = "../l7kyu" }
 l6kyu = { path = "../l6kyu" }
+l5kyu = { path = "../l5kyu" }
 #dialoguer = "0.9"
