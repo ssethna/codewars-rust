@@ -10,7 +10,7 @@ use shared::kata::*;
 /// easier we suppose that our original text doesn't include the character '\n'.
 /// # Example
 /// ``` code("Alan Turing") ``` <br>
-/// returns "i A\nnTl\ngua\nrn"
+/// returns "\x0bi A\n\x0bnTl\n\x0bgua\n\x0b\x0brn"
 pub fn code(s: &str) -> String {
     let kata = Kata {
         level: Level::L8kyu,
