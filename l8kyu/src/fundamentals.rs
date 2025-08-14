@@ -4,6 +4,37 @@
 
 use shared::kata::*;
 
+/// Define String.prototype.toAlternatingCase (or a similar function/method
+/// such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your
+/// selected language; see the initial solution for details) such that each
+/// lowercase letter becomes uppercase and each uppercase letter becomes lowercase.
+/// # Example
+/// ``` "hello world".toAlternatingCase() ``` <br>
+/// returns "HELLO WORLD"
+pub fn to_alternating_case(s: &str) -> String {
+    let kata = Kata {
+        level: Level::L8kyu,
+        tags: vec![Tag::Fundamentals],
+        description: String::from("altERnaTIng cAsE <=> ALTerNAtiNG CaSe"),
+    };
+
+    println!(
+        "Level: {:?}, Tags: {:?}, Description: {}",
+        kata.level, kata.tags, kata.description
+    );
+    s.chars()
+        .map(|c| {
+            if c.is_uppercase() {
+                c.to_lowercase().to_string()
+            } else if c.is_lowercase() {
+                c.to_uppercase().to_string()
+            } else {
+                c.to_string()
+            }
+        })
+        .collect()
+}
+
 /// This function takes two numbers as parameters, the first number
 /// being the coefficient, and the second number being the exponent.
 /// The exponent will never be 1, and neither number will ever be 0.
