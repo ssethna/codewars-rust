@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["derive","is_love","multi_table"]};
+window.SIDEBAR_ITEMS = {"fn":["derive","is_love","multi_table","to_alternating_case"]};
