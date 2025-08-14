@@ -42,4 +42,5 @@ fn main() {
     println!("Derive is {}", derive(7, 8));
     println!("{}", code("Alan Turing"));
     println!("Decode is {}", decode("\x0bi A\n\x0bnTl\n\x0bgua\n\x0b\x0brn"));
+    println!("Alternate case for 'Hello World' is '{}'", to_alternating_case("Hello World"));
 }
