@@ -110,11 +110,58 @@
 <a href="#109" id="109">109</a>
 <a href="#110" id="110">110</a>
 <a href="#111" id="111">111</a>
-<a href="#112" id="112">112</a></pre></div><pre class="rust"><code><span class="doccomment">//!
+<a href="#112" id="112">112</a>
+<a href="#113" id="113">113</a>
+<a href="#114" id="114">114</a>
+<a href="#115" id="115">115</a>
+<a href="#116" id="116">116</a>
+<a href="#117" id="117">117</a>
+<a href="#118" id="118">118</a>
+<a href="#119" id="119">119</a>
+<a href="#120" id="120">120</a>
+<a href="#121" id="121">121</a>
+<a href="#122" id="122">122</a>
+<a href="#123" id="123">123</a>
+<a href="#124" id="124">124</a>
+<a href="#125" id="125">125</a>
+<a href="#126" id="126">126</a>
+<a href="#127" id="127">127</a>
+<a href="#128" id="128">128</a>
+<a href="#129" id="129">129</a>
+<a href="#130" id="130">130</a>
+<a href="#131" id="131">131</a>
+<a href="#132" id="132">132</a>
+<a href="#133" id="133">133</a>
+<a href="#134" id="134">134</a>
+<a href="#135" id="135">135</a>
+<a href="#136" id="136">136</a></pre></div><pre class="rust"><code><span class="doccomment">//!
 //! Modules categorized by Codewars labels - 8kyu *** Fundamentals ***
 //!
 
 </span><span class="kw">use </span>shared::kata::<span class="kw-2">*</span>;
+
+<span class="doccomment">/// Write a function that removes the spaces from the string,
+/// then return the resultant string.
+/// # Example
+/// ``` "8 j 8   mBliB8g  imjB8B8  jl  B" ``` &lt;br&gt;
+/// returns "8j8mBliB8gimjB8B8jlB"
+</span><span class="kw">pub fn </span>no_space(x: String) -&gt; String {
+    <span class="kw">let </span>kata = Kata {
+        level: Level::L8kyu,
+        tags: <span class="macro">vec!</span>[Tag::Fundamentals, Tag::Strings],
+        description: String::from(<span class="string">"altERnaTIng cAsE &lt;=&gt; ALTerNAtiNG CaSe"</span>),
+    };
+
+    <span class="macro">println!</span>(
+        <span class="string">"Level: {:?}, Tags: {:?}, Description: {}"</span>,
+        kata.level, kata.tags, kata.description
+    );
+
+    <span class="comment">// let no_spaces: String = x.chars().filter(|c| *c != ' ').collect();
+    // no_spaces
+    // Found better solution below.
+    </span>x.replace(<span class="string">" "</span>, <span class="string">""</span>)
+}
 
 <span class="doccomment">/// Define String.prototype.toAlternatingCase (or a similar function/method
 /// such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your
@@ -134,6 +181,7 @@
         <span class="string">"Level: {:?}, Tags: {:?}, Description: {}"</span>,
         kata.level, kata.tags, kata.description
     );
+
     s.chars()
         .map(|c| {
             <span class="kw">if </span>c.is_uppercase() {
