@@ -4,6 +4,29 @@
 
 use shared::kata::*;
 
+/// Write a function that removes the spaces from the string,
+/// then return the resultant string.
+/// # Example
+/// ``` "8 j 8   mBliB8g  imjB8B8  jl  B" ``` <br>
+/// returns "8j8mBliB8gimjB8B8jlB"
+pub fn no_space(x: String) -> String {
+    let kata = Kata {
+        level: Level::L8kyu,
+        tags: vec![Tag::Fundamentals, Tag::Strings],
+        description: String::from("altERnaTIng cAsE <=> ALTerNAtiNG CaSe"),
+    };
+
+    println!(
+        "Level: {:?}, Tags: {:?}, Description: {}",
+        kata.level, kata.tags, kata.description
+    );
+
+    // let no_spaces: String = x.chars().filter(|c| *c != ' ').collect();
+    // no_spaces
+    // Found better solution below.
+    x.replace(" ", "")
+}
+
 /// Define String.prototype.toAlternatingCase (or a similar function/method
 /// such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your
 /// selected language; see the initial solution for details) such that each
@@ -22,6 +45,7 @@ pub fn to_alternating_case(s: &str) -> String {
         "Level: {:?}, Tags: {:?}, Description: {}",
         kata.level, kata.tags, kata.description
     );
+
     s.chars()
         .map(|c| {
             if c.is_uppercase() {

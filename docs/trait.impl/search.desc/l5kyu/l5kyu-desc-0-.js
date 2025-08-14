@@ -1,0 +1,1 @@
+searchState.loadedDescShard("l5kyu", 0, "Codewars Katas - Level 5kyu.\nModules categorized by Codewars labels - 5kyu *** …\nA squared string has n lines, each substring being n …\nA squared string has n lines, each substring being n …")
