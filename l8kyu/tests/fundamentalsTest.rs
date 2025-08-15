@@ -5,6 +5,14 @@ mod tests {
     use super::*;
 
     #[test]
+    fn simple_multiplication_test() {
+        assert_eq!(simple_multiplication(1), 9);
+        assert_eq!(simple_multiplication(2), 16);
+        assert_eq!(simple_multiplication(4), 32);
+        assert_eq!(simple_multiplication(5), 45);
+    }
+
+    #[test]
     fn no_space_test() {
         assert_eq!(
             "8j8mBliB8gimjB8B8jlB",

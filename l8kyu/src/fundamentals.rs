@@ -4,6 +4,33 @@
 
 use shared::kata::*;
 
+/// This kata is about multiplying a given number by eight if it is
+/// an even number and by nine otherwise.
+/// # Example
+/// ``` 4 ``` <br>
+/// returns 32
+/// # Example
+/// ``` 5 ``` <br>
+/// returns 45
+pub fn simple_multiplication(number: u8) -> u8 {
+    let kata = Kata {
+        level: Level::L8kyu,
+        tags: vec![Tag::Fundamentals],
+        description: String::from("Simple multiplication"),
+    };
+
+    println!(
+        "Level: {:?}, Tags: {:?}, Description: {}",
+        kata.level, kata.tags, kata.description
+    );
+
+    if number % 2 == 0 {
+        number * 8
+    } else {
+        number * 9
+    }
+}
+
 /// Write a function that removes the spaces from the string,
 /// then return the resultant string.
 /// # Example
@@ -13,7 +40,7 @@ pub fn no_space(x: String) -> String {
     let kata = Kata {
         level: Level::L8kyu,
         tags: vec![Tag::Fundamentals, Tag::Strings],
-        description: String::from("altERnaTIng cAsE <=> ALTerNAtiNG CaSe"),
+        description: String::from("Remove String Spaces"),
     };
 
     println!(

@@ -53,4 +53,6 @@ fn main() {
         "No spaces is {}",
         no_space(String::from("8 j 8   mBliB8g  imjB8B8  jl  B"))
     );
+    println!("Even is multiplied by 8 so 4 is {}", simple_multiplication(4));
+    println!("Odd is multiplied by 9 so 5 is {}", simple_multiplication(5));
 }
