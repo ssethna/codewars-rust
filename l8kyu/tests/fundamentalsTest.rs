@@ -5,6 +5,14 @@ mod tests {
     use super::*;
 
     #[test]
+    fn hex_to_dec_test() {
+        assert_eq!(hex_to_dec("a"), 10);
+        assert_eq!(hex_to_dec("10"), 16);
+        assert_eq!(hex_to_dec("1"), 1);
+        assert_eq!(hex_to_dec("21"), 33);
+    }
+
+    #[test]
     fn simple_multiplication_test() {
         assert_eq!(simple_multiplication(1), 9);
         assert_eq!(simple_multiplication(2), 16);

@@ -55,4 +55,5 @@ fn main() {
     );
     println!("Even is multiplied by 8 so 4 is {}", simple_multiplication(4));
     println!("Odd is multiplied by 9 so 5 is {}", simple_multiplication(5));
+    println!("The decimal of hex a is {}", hex_to_dec("a"));
 }

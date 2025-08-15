@@ -4,6 +4,26 @@
 
 use shared::kata::*;
 
+/// Complete the function which converts hex number (given as a string)
+/// to a decimal number.
+/// # Example
+/// ``` a ``` <br>
+/// returns 10
+pub fn hex_to_dec(hex_string: &str) -> u32 {
+    let kata = Kata {
+        level: Level::L8kyu,
+        tags: vec![Tag::Fundamentals],
+        description: String::from("Hex to Decimal"),
+    };
+
+    println!(
+        "Level: {:?}, Tags: {:?}, Description: {}",
+        kata.level, kata.tags, kata.description
+    );
+    
+    u32::from_str_radix(hex_string, 16).expect("Not a Hex string")
+} 
+
 /// This kata is about multiplying a given number by eight if it is
 /// an even number and by nine otherwise.
 /// # Example
