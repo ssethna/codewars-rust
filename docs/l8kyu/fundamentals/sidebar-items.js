@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["derive","hex_to_dec","is_love","multi_table","no_space","simple_multiplication","to_alternating_case"]};
+window.SIDEBAR_ITEMS = {"fn":["derive","first_non_consecutive","hex_to_dec","is_love","multi_table","no_space","simple_multiplication","to_alternating_case"]};
