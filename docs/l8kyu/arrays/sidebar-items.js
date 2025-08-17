@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["square_sum"]};
+window.SIDEBAR_ITEMS = {"fn":["first_non_consecutive","square_sum"]};

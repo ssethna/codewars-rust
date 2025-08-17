@@ -4,24 +4,6 @@
 
 use shared::kata::*;
 
-/// Your task is to find the first element of an array that is not consecutive.
-/// If the whole array is consecutive then return null.
-/// The array will always have at least 2 elements and all elements will be numbers.
-/// The numbers will also all be unique and in ascending order. The numbers could
-/// be positive or negative and the first non-consecutive could be either too!
-/// # Example
-/// ``` [1,2,3,4,6,7,8] ``` <br>
-/// returns 6
-pub fn first_non_consecutive(arr: &Vec<i32>) -> Option<i32> {
-    for i in 1..arr.len() {
-        if arr[i] - arr[i-1] != 1 {
-            return Some(arr[i]);
-        }
-    }
-    None
-}
-
-
 /// Complete the function which converts hex number (given as a string)
 /// to a decimal number.
 /// # Example
@@ -38,9 +20,9 @@ pub fn hex_to_dec(hex_string: &str) -> u32 {
         "Level: {:?}, Tags: {:?}, Description: {}",
         kata.level, kata.tags, kata.description
     );
-    
+
     u32::from_str_radix(hex_string, 16).expect("Not a Hex string")
-} 
+}
 
 /// This kata is about multiplying a given number by eight if it is
 /// an even number and by nine otherwise.
