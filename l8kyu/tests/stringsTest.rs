@@ -5,6 +5,16 @@ mod tests {
     use super::*;
 
     #[test]
+    fn remove_char_test() {
+        assert_eq!(remove_char("eloquent"), "loquen");
+        assert_eq!(remove_char("country"), "ountr");
+        assert_eq!(remove_char("person"), "erso");
+        assert_eq!(remove_char("place"), "lac");
+        assert_eq!(remove_char("ok"), "");
+        assert_eq!(remove_char("ooopsss"), "oopss");
+    }
+
+    #[test]
     fn boolean_to_string_test() {
         assert_eq!(
             boolean_to_string(true),

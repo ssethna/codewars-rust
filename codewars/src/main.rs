@@ -66,4 +66,5 @@ fn main() {
         "first non consecutive is {:?}",
         first_non_consecutive(&vec![1, 2, 3, 4, 6, 7, 8])
     );
+    println!("Remove first and last char gives {}", remove_char("eloquent"))
 }

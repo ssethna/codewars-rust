@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["boolean_to_string"]};
+window.SIDEBAR_ITEMS = {"fn":["boolean_to_string","remove_char"]};
