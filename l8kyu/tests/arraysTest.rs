@@ -5,6 +5,22 @@ mod tests {
     use super::*;
 
     #[test]
+    fn merge_arrays_test() {
+        assert_eq!(
+            merge_arrays(&[1, 2, 3, 4], &[5, 6, 7, 8]),
+            &[1, 2, 3, 4, 5, 6, 7, 8]
+        );
+        assert_eq!(
+            merge_arrays(&[1, 3, 5, 7, 9], &[10, 8, 6, 4, 2]),
+            &[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        );
+        assert_eq!(
+            merge_arrays(&[1, 3, 5, 7, 9, 11, 12], &[1, 2, 3, 4, 5, 10, 12]),
+            &[1, 2, 3, 4, 5, 7, 9, 10, 11, 12]
+        );
+    }
+
+    #[test]
     fn first_non_consecutive_test() {
         assert_eq!(first_non_consecutive(&vec![1, 2, 3, 4, 6, 7, 8]), Some(6));
         assert_eq!(first_non_consecutive(&vec![1, 2, 3, 4, 5, 6, 7, 8]), None);
