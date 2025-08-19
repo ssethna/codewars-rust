@@ -11,6 +11,9 @@ use shared::kata::*;
 /// are removed, so each integer appears only once. If both input arrays are
 /// empty, return an empty array. No input validation is needed, as both
 /// arrays are guaranteed to contain zero or more integers.
+/// # Example
+/// ``` [1, 2, 3, 4, 5], [6, 7, 8, 9, 10] ``` <br>
+/// returns [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 pub fn merge_arrays(arr1: &[i32], arr2: &[i32]) -> Vec<i32> {
     let kata = Kata {
         level: Level::L8kyu,
