@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["arrays","fundamentals","math","strings"]};
+window.SIDEBAR_ITEMS = {"mod":["arrays","bits","fundamentals","math","strings"]};
